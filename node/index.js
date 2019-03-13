@@ -15,7 +15,7 @@ const op = f => async (req, res) => {
 	try {
 		return res.json({ ok: true, value: await f(req.body) });
 	} catch (err) {
-		return res.json({ ok: false, value: err.message });
+		return res.json({ ok: false, error: err.message });
 	}
 };
 
