@@ -1,0 +1,15 @@
+{
+  "name": "fake",
+  "version": "0.0.1",
+  "description": "Simple CLI client",
+  "main": "index.js",
+  "dependencies": {
+    "netlinkwrapper": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Rory Gummerson <thomas@gummerson.no> (https://trgwii.no/)",
+  "license": "Beerware"
+}
